@@ -1,40 +1,40 @@
 // console.log('Hello, world!!')
 
 // Codigo del cuadrado
-console.group('CUADRADO');
+console.group('---- CUADRADO ----');
 
-const ladoCuadrado = 5;
-console.log(`Los lados del cuadrado miden : ${ladoCuadrado} cm`)
+const squareSide = 5;
+console.log(`Los lados del cuadrado miden : ${squareSide} cm`)
 
-const perimetroCuadrado = ladoCuadrado * 4;
-console.log(`El perimetro del cuadrado : ${perimetroCuadrado} cm`);
+const squarePerimeter = squareSide * 4;
+console.log(`El perimetro del cuadrado : ${squarePerimeter} cm`);
 
-const areaCuadrado = ladoCuadrado * ladoCuadrado;
-console.log(`El area del cuadrado : ${areaCuadrado} cm^2`);
+const squareArea = squareSide * squareSide;
+console.log(`El area del cuadrado : ${squareArea} cm^2`);
 
 console.groupEnd();
 
 
 
 //codigo del triangulo
-console.group('TRIANGULO');
+console.group('---- TRIANGULO ----');
 
-const l1Triangulo = 6;
-const l2Triangulo2 = 6;
-const bTriangulo = 4;
+const lado1Triangulo = 6;
+const lado2Triangulo = 6;
+const baseTriangulo = 4;
 const hTriangulo = 5.5;
 
 console.log(`Los lados del cuadrado miden :
-    ${l1Triangulo} cm
-    ${l2Triangulo2} cm
-    ${bTriangulo} cm`);
+    ${lado1Triangulo} cm
+    ${lado2Triangulo} cm
+    ${baseTriangulo} cm`);
 
 console.log(`La altura del triangulo es de : ${hTriangulo} cm`);
 
-const pTriangulo = l1Triangulo + l2Triangulo2 + bTriangulo;
+const pTriangulo = lado1Triangulo + lado2Triangulo + baseTriangulo;
 console.log(`El perimetro del triangulo es : ${pTriangulo} cm`);
 
-const aTriangulo = (bTriangulo * hTriangulo) / 2;
+const aTriangulo = (baseTriangulo * hTriangulo) / 2;
 console.log(`El area del triangulo es : ${aTriangulo} cm^2`);
 
 console.groupEnd();
