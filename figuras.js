@@ -19,23 +19,23 @@ console.groupEnd();
 //codigo del triangulo
 console.group('---- TRIANGULO ----');
 
-const lado1Triangulo = 6;
-const lado2Triangulo = 6;
-const baseTriangulo = 4;
-const hTriangulo = 5.5;
+const triangleSide1 = 6;
+const triangleSide2 = 6;
+const triangleBase = 4;
+const triangleHeight = 5.5;
 
 console.log(`Los lados del cuadrado miden :
-    ${lado1Triangulo} cm
-    ${lado2Triangulo} cm
-    ${baseTriangulo} cm`);
+    ${triangleSide1} cm
+    ${triangleSide2} cm
+    ${triangleBase} cm`);
 
-console.log(`La altura del triangulo es de : ${hTriangulo} cm`);
+console.log(`La altura del triangulo es de : ${triangleHeight} cm`);
 
-const pTriangulo = lado1Triangulo + lado2Triangulo + baseTriangulo;
-console.log(`El perimetro del triangulo es : ${pTriangulo} cm`);
+const trianglePerimeter = triangleSide1 + triangleSide2 + triangleBase;
+console.log(`El perimetro del triangulo es : ${trianglePerimeter} cm`);
 
-const aTriangulo = (baseTriangulo * hTriangulo) / 2;
-console.log(`El area del triangulo es : ${aTriangulo} cm^2`);
+const triangleArea = (triangleBase * triangleHeight) / 2;
+console.log(`El area del triangulo es : ${triangleArea} cm^2`);
 
 console.groupEnd();
 
@@ -44,21 +44,21 @@ console.groupEnd();
 //codigo del circulo
 console.group('CIRCULO');
 
-const rCirculo = 4;
-const dCirculo = rCirculo * 2;
+const circleRadio = 4;
+const circleDiameter = circleRadio * 2;
 const PI = Math.PI;
-const piCirculo = PI;
+const circlePerimeter = PI;
 
-pCirculo = dCirculo * PI;
+pCirculo = circleDiameter * PI;
 // Circunferencia
-const cICirculo = pCirculo;
+const circleCircumference = pCirculo;
 
 // Area
-const aCirculo = ( rCirculo * rCirculo ) * PI;
+const circleArea = ( circleRadio * circleRadio ) * PI;
 
-console.log(`El radio del circulo es : ${rCirculo} cm`);
-console.log(`El diametro del circulo es : ${dCirculo} cm`);
+console.log(`El radio del circulo es : ${circleRadio} cm`);
+console.log(`El diametro del circulo es : ${circleDiameter} cm`);
 console.log(`El perimetro del circulo es : ${pCirculo} cm`);
-console.log(`El area del circulo es : ${aCirculo} cm^2`);
+console.log(`El area del circulo es : ${circleArea} cm^2`);
 
 console.groupEnd();
