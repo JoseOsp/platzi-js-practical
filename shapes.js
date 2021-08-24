@@ -1,7 +1,7 @@
 // console.log('Hello, world!!')
 
-// Codigo del cuadrado
-console.group('---- CUADRADO ----');
+// Square code
+console.group('---- SQUARE ----');
 
 const squareSide = 5;
 console.log(`Los lados del cuadrado miden : ${squareSide} cm`)
@@ -16,8 +16,8 @@ console.groupEnd();
 
 
 
-//codigo del triangulo
-console.group('---- TRIANGULO ----');
+// Triangle code
+console.group('---- TRIANGLE ----');
 
 const triangleSide1 = 6;
 const triangleSide2 = 6;
@@ -41,8 +41,8 @@ console.groupEnd();
 
 
 
-//codigo del circulo
-console.group('CIRCULO');
+// Circle code
+console.group('---- CIRCLE ----');
 
 const circleRadio = 4;
 const circleDiameter = circleRadio * 2;
@@ -50,7 +50,7 @@ const PI = Math.PI;
 const circlePerimeter = PI;
 
 pCirculo = circleDiameter * PI;
-// Circunferencia
+// Circumference
 const circleCircumference = pCirculo;
 
 // Area
