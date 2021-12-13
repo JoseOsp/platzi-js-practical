@@ -1,0 +1,19 @@
+{
+  "name": "platzi-js-practical",
+  "version": "1.0.0",
+  "description": "JS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseOsp/platzi-js-practical.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseOsp/platzi-js-practical/issues"
+  },
+  "homepage": "https://github.com/JoseOsp/platzi-js-practical#readme"
+}

@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #2f3763;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+.header__title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.section__cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 29rem;
+  height: 32rem;
+  background-color: #1f295b;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem 0 0;
+}
+
+.card__label {
+  font-size: 1.2rem;
+}
+
+.card__input {
+  width: 25rem;
+  height: 4.5rem;
+  color: #2237F5;
+  border-radius: 2rem;
+  border: none;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+}
+.card__input::placeholder {
+  color: #1f295b;
+}
+.card__input:focus {
+  outline: solid 0.3rem #ce82c7;
+}
+
+.card__button {
+  color: white;
+  margin: 0.5rem;
+  border: none;
+  width: 25rem;
+  height: 4.5rem;
+  border-radius: 2rem;
+  background-color: #8d5be9;
+  cursor: pointer;
+}
+.card__button:hover {
+  background-color: #ce82c7;
+}
+
+/*# sourceMappingURL=shapes.css.map */

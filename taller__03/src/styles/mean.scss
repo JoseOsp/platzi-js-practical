@@ -1,0 +1,26 @@
+// Variables
+$back: rgb(47,55,99);
+$background: rgb(31,41,91);
+$white: rgb(255,255,255);
+$purple: rgb(141,91,233);
+$pink: rgb(206,130,199);
+
+// Resets
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $back;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: $white;
+}
+
+//
